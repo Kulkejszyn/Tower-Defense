@@ -1,0 +1,33 @@
+﻿{
+    "files.exclude":
+    {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode": true,
+        "*.apk": true,
+        "*.csproj": true,
+        "*.sln": true,
+        "*/.vscode": true,
+        "*/Scenes": true,
+        "*/Sprites": true,
+        "Logs": true,
+        "Packages": true,
+        "*.meta": true,
+        "**/*.meta": true,
+        "**/Animations/**": true,
+        "**/Materials/**": true,
+        "**/Prefabs/**": true,
+        "**/Library": true,
+        "**/Temp": true,
+        "**/Debug": true,
+        "**/obj": true,
+        "**/ProjectSettings": true,
+        "**/UIElementsSchema": true,
+        "**/*.asset": true
+    },
+    "files.eol": "\n",
+    "explorerExclude.backup": null
+}
