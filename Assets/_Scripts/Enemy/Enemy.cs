@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(EnemyMovement))]
 public class Enemy : MonoBehaviour {
 	[HideInInspector]
 	public float speed;

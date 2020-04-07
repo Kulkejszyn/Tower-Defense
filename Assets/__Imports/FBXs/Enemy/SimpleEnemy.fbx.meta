@@ -1,53 +1,33 @@
 fileFormatVersion: 2
-guid: 0ac2c0f17aa56e5428ce30de9bbc4d24
+guid: 12e407df9ea6cf44d95231d8a60e21f4
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
-      74: -2466151698274760027
-    second: Enemy|SwordAction
+      74: 624769977558001397
+    second: SimpleEnemy|Action
   - first:
-      74: -2779738578720788344
-    second: Enemy|Walking
+      74: 3647937384981352842
+    second: SimpleEnemy|Action.001
   - first:
-      74: 8134942641878720640
-    second: Sword|SwordAction
+      74: 7754953786628877332
+    second: SimpleEnemy|Action.002
   - first:
-      74: 1651323752366891487
-    second: Sword|Walking
+      74: -6189498715715553233
+    second: SimpleEnemy|Action.003
   - first:
-      74: 1772986863433854982
-    second: Enemy.001|Action
+      74: 8175835536933907707
+    second: SimpleEnemy|SwordAction
   - first:
-      74: -4245192032989767207
-    second: Enemy.001|Action.001
+      74: 7306367777740827562
+    second: SimpleEnemy|WALKING
   - first:
-      74: 191024709720591399
-    second: Enemy.001|ArmatureAction
+      74: 8289772696346046056
+    second: SimpleEnemy|WALKING.002
   - first:
-      74: 9053665311333050252
-    second: Enemy.001|Chodzonko
-  - first:
-      74: 7409050149206411224
-    second: Enemy.001|SwordAction
-  - first:
-      74: -2221342328515558362
-    second: Enemy.001|SwordAction.001
-  - first:
-      74: 4019573944167892495
-    second: Enemy.001|Walking
-  - first:
-      74: -7745696225811592214
-    second: Enemy.001|WALKING
-  - first:
-      74: 3719091308127535658
-    second: Enemy.001|Walking.001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 74d21e8234b20d646bd13d9cb502d4ed, type: 2}
+      74: -5652925250429102643
+    second: SimpleEnemy|WALKING.003
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -67,7 +47,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -76,8 +56,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Enemy.001|WALKING
-      takeName: Enemy.001|WALKING
+      name: SimpleEnemy|Action
+      takeName: SimpleEnemy|Action
       internalID: 0
       firstFrame: 0
       lastFrame: 24
@@ -107,7 +87,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 2
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -153,7 +133,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 2
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
