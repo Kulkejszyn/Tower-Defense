@@ -26,7 +26,8 @@
         "**/obj": true,
         "**/ProjectSettings": true,
         "**/UIElementsSchema": true,
-        "**/*.asset": true
+        "**/*.asset": true,
+        "Assets/Plugins": true
     },
     "files.eol": "\n",
     "explorerExclude.backup": null
